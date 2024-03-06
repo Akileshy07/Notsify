@@ -1,0 +1,7 @@
+.cardContent{
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+    flex-wrap: wrap;
+
+}

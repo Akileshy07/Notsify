@@ -1,0 +1,39 @@
+.addNotes{
+    background-color:#393E46;
+    border-radius: 8px;
+    padding: 30px;
+    height: 93vh;
+    width: 73% !important;
+}
+.example{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 265px;
+    position: relative;
+    transition: 0.5s ease-out;
+    background-color:rgba(0, 255, 255, 0.514) !important;
+
+}
+.example:hover{
+    background-color: #fff;
+}
+.example::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+.icon{
+    padding: 5px;
+    font-size: 25px;
+}
+.search{
+
+color: #fff;
+margin-left: 30px;
+ 
+}
